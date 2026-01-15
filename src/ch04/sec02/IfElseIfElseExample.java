@@ -14,7 +14,7 @@ public class IfElseIfElseExample {
         } else if ( score >= 80 ) {
             result = "B";
         } else if ( score >= 70 ) {
-            result = "C";;
+            result = "C";
         }
         System.out.printf("%s등급\n", result);
     }

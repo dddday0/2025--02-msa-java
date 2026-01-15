@@ -3,7 +3,7 @@ package ch01.sec10;
 primitive type (원시타입/일반타입) 자바에 8개가 존재
 정수형: byte, short, int, long(int가 저장할 수 없는 범위일때만)
 실수형: float, double
-불린형: boolean
+불린형: boolean (자바 if문 리턴 타입은 boolean)
 문자형: char
 
  */

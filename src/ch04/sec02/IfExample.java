@@ -6,7 +6,7 @@ public class IfExample {
         if( num >= 0 ) {
             System.out.println(num);
         } else {
-            System.out.println( num* -1);
+            System.out.println( num * -1);
         }
         // 콘솔에 num값을 출력하는 무조건 절대값이 되도록 해주세요.
 
