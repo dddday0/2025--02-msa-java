@@ -34,10 +34,10 @@ public class ArrayListStringMain {
         String removeVal2  = list.remove(2);
         System.out.println("removeVal2: " + removeVal2 ); // 후후
         System.out.println(Arrays.toString(list.arr)); // [ 하하, 나야, 크크, 와우 ]
-        String removeVal3 = list.get(1); // 주소값으로 해야 함.
-         System.out.println("removeVal3:" + removeVal3);
-        list.remove(removeVal3);
-        System.out.println(Arrays.toString(list.arr)); // [ 하하, 크크, 와우]
+       String removeVal3 = list.get(1); // 주소값으로 해야 함.
+        System.out.println("removeVal3:" + removeVal3);
+      list.remove(removeVal3);
+       System.out.println(Arrays.toString(list.arr)); // [ 하하, 크크, 와우]
 
 
 
