@@ -1,6 +1,9 @@
 package blackjack;
 
 public class Dealer extends Gamer {
+    public Dealer() {
+        super("딜러");
+    }
     private final int DRAW_LIMIT = 16;
     public boolean needmoreCards() { //리팩토링> 이름
         // 내가 가진 카드들의 점수 총합이 16점 이하면 리턴 true,
